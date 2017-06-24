@@ -1,0 +1,22 @@
+{
+  "name": "TestLinio",
+  "description": "Calcula apartir de 0 até o valor dado todos os números múltiplos de três e cinco, substituindo os múltiplos de três por 'Linio', os múltiplos de cinco por 'IT' e os de ambos por 'Linianos'",
+  "authors": [
+    {
+      "name": "Caio Fernandes Luchesi",
+      "email": "caiofluchesi@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "6.2",
+    "behat/behat": "3.3.@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Test\\Classes\\": "classes/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
